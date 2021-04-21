@@ -1,0 +1,88 @@
+body{
+  user-select: none;
+}
+#back{
+  height: 150px;
+  background: rgb(242,255,254);
+  background: linear-gradient(90deg, rgba(242,255,254,1) 0%, rgba(255,250,240,1) 100%);
+}
+#doglists{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  width: 20%;
+  height: 50px;
+  top: 45%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#dogsublists{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  width: 20%;
+  height: 50px;
+  top: 45%;
+  left: 15%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#button{
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  height: 40px;
+  width: 150px;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: lightgray;
+}
+#button:hover{
+  box-shadow: 0px 0px 30px 5px grey;
+}
+#getimage{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  font-weight: bold;
+}
+img{
+  height: 400px;
+  margin-top: 10px;
+  margin-left:50px;
+}
+#next{
+  margin: 0;
+  position: absolute;
+  left: 80%;
+  top: 50%;
+  height: 50px;
+  width: 150px;
+  transform: translateY(-50%);
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+#next:hover{
+    box-shadow: 0px 0px 10px lightblue;
+    text-shadow: 0px 0px 5px lightblue;
+}
+#nextspan{
+  position: absolute;
+  font-size: 21px;
+  color: lightblue;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
